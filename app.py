@@ -147,6 +147,8 @@ with st.sidebar:
 
 
 if st.session_state.step == "start":
+    st.snow()
+
     st.session_state.name = st.text_input(
         "Adınızı giriniz",
         value=st.session_state.name,
@@ -215,6 +217,15 @@ elif st.session_state.step == "results":
         f"{st.session_state.name} için sonuç: "
         f"{correct}/10 doğru — {score}/100 puan"
     )
+
+    if score >= 80:
+        st.balloons()
+        st.success("🎉 Harika! Davranışsal eğilimleri çok iyi teşhis ettiniz.")
+    elif score >= 60:
+        st.snow()
+        st.info("👏 Güzel performans. Bazı eğilimler birbirine yakın olduğu için karışabilir.")
+    else:
+        st.warning("🔎 Eğilimleri vaka ipuçları üzerinden tekrar gözden geçirmek faydalı olabilir.")
 
     st.subheader("Toplu Sonuç Tablosu")
     st.dataframe(
