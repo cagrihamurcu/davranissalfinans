@@ -80,13 +80,12 @@ sektörde rekabet artmış ve analist hedef fiyatları aşağı çekilmişti. Bu
     },
     {
         "card_no": 5,
-        "case": """Selim, yüksek oynaklığa sahip bir kripto varlıkta işlem yapıyordu. 
-Fiyat hareketlerini dakika dakika izliyor, ekranın başında olduğu sürece piyasayı yönetebileceğini düşünüyordu. 
-“Ben sürekli takip edersem zarar etmem; düşüş başlarsa hemen çıkarım” diyordu. Bu yüzden zarar-kes emri koymadı ve pozisyon büyüklüğünü sınırlamadı. 
-Ancak beklenmedik bir haber akışıyla fiyat saniyeler içinde sert düştü. Selim emir verene kadar zarar büyümüştü.""",
-        "answer": "Kontrol İllüzyonu Eğilimi",
-        "clue": "Kontrol edilemeyen piyasa hareketlerini ekrana bakarak kontrol edebileceğini düşünmesi.",
-        "advice": "Piyasayı sürekli izlemek kontrol sağladığı anlamına gelmez; önceden zarar-kes, pozisyon limiti ve senaryo planı belirlenmelidir."
+        "case": """Can, televizyonda ve sosyal medyada sürekli bir madencilik şirketinin konuşulduğunu görüyordu. 
+Şirketle ilgili haberler çok dikkat çekiciydi; herkes yeni rezervlerden ve büyük kâr beklentilerinden bahsediyordu. 
+Can başka şirketleri araştırmadı. Aklına en kolay gelen yatırım bu şirket olduğu için alım yaptı.""",
+        "answer": "Ulaşılabilirlik Eğilimi",
+        "clue": "Kolay hatırlanan, sık görülen ve çok konuşulan bilgiye göre karar vermesi.",
+        "advice": "Tek haberle işlem yapmamalı; bilanço, fiyatlama ve risk göstergelerini kontrol etmelidir."
     },
     {
         "card_no": 6,
@@ -117,24 +116,23 @@ Yeni halka arz edilen başka bir teknoloji şirketini görünce, bu şirketin de
     },
     {
         "card_no": 9,
-        "case": """Zeynep, bir hisseyi aldıktan hemen sonra bu kararını arkadaşlarına güçlü biçimde savundu. 
-Ertesi hafta şirketin beklenenden zayıf bilanço açıkladığını görünce rahatsız oldu; çünkü bu bilgi kendi kararının hatalı 
-olabileceğini düşündürüyordu. Raporu ayrıntılı okumak yerine “Ben zaten uzun vadeli yatırımcıyım” diyerek kendini rahatlattı. 
-Daha önce önem verdiği kârlılık göstergelerini bu kez önemsiz saydı. Asıl amacı, yeni bilgiyle kendi kararı arasındaki 
-zihinsel rahatsızlığı azaltmaktı.""",
+        "case": """Zeynep, uzun süredir olumlu düşündüğü bir şirketin hissesini almıştı. 
+Birkaç ay sonra şirketin satışlarının düştüğünü ve borçlarının arttığını gösteren raporlar yayımlandı. 
+Zeynep bu raporları okumak istemedi. Bunun yerine şirketi öven sosyal medya yorumlarını takip etti ve 
+“Ben bu şirketin potansiyeline inanıyorum” dedi.""",
         "answer": "Bilişsel Çatışma Eğilimi",
-        "clue": "Çelişkili bilgi karşısında kararını objektif biçimde güncellemek yerine rahatsızlığı azaltacak gerekçeler üretmesi.",
-        "advice": "Karar sonrası gelen ters bilgileri savunma refleksiyle değil, başlangıçtaki yatırım gerekçeleriyle karşılaştırarak değerlendirmelidir."
+        "clue": "Eski inancıyla çelişen bilgiden rahatsız olup bu bilgiyi görmezden gelmesi.",
+        "advice": "Karar öncesi en az iki karşı argümanı incelemeli ve kaynak çeşitliliği sağlamalıdır."
     },
     {
         "card_no": 10,
-        "case": """Ali, portföyüne yeni bir hisse eklemek istiyordu. Şirketin finansallarını, sektör görünümünü ve olası riskleri incelemeden 
-“Benim piyasa sezgim güçlüdür; çoğu yatırımcıdan daha iyi karar veririm” dedi. Arkadaşının “En azından bilançosuna bakalım” uyarısını 
-“Buna gerek yok, ben bu işleri gözümden anlarım” diye geçiştirdi. Üstelik riskleri sınırlamak yerine portföyünün büyük kısmını tek bir hisseye yatırdı. 
-Ali’nin kararı son fiyat hareketine ya da benzer bir geçmiş örneğe değil, kendi bilgi ve yeteneğine duyduğu aşırı güvene dayanıyordu.""",
+        "case": """Ali, son üç ayda yaptığı birkaç kısa vadeli işlemden kâr etmişti. 
+Bu başarıdan sonra piyasayı artık “okuyabildiğini” düşünmeye başladı. Yeni bir hisse alırken şirketin bilançosunu incelemedi; 
+çünkü kendi sezgilerinin teknik analizden ve uzman yorumlarından daha güçlü olduğuna inanıyordu. 
+Portföyünün büyük kısmını tek bir hisseye yatırdı.""",
         "answer": "Aşırı Güven Eğilimi",
-        "clue": "Kararın temelinde son dönem performans veya benzerlik değil, kendi sezgi ve yatırım yeteneğini abartması vardır.",
-        "advice": "İşlem öncesi kontrol listesi kullanmalı, bağımsız veriyle karar vermeli ve tek varlık için maksimum portföy ağırlığı belirlemelidir."
+        "clue": "Kendi yatırım becerisini abartması, riski küçümsemesi ve düşük çeşitlendirme yapması.",
+        "advice": "İşlem öncesi kontrol listesi kullanmalı, maksimum pozisyon ve işlem limiti belirlemelidir."
     },
 ]
 
